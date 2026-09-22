@@ -6,5 +6,6 @@ public class Main {
         int totalNumberOfStudents= obj1.numberOfStudents+obj2.numberOfStudents+obj3.numberOfStudents;
         int NumberOfCourses= 3;
         int AverageStudents= totalNumberOfStudents/NumberOfCourses;
+        
     }
 }
