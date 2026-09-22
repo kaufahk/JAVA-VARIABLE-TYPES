@@ -13,5 +13,7 @@ public class Main {
         obj2.display();
         System.out.println("Object three");
         obj3.display();
+        System.out.println("The total number of students is "+totalNumberOfStudents);
+        System.out.println("The average students is "+AverageStudents);
     }
 }
