@@ -6,6 +6,12 @@ public class Main {
         int totalNumberOfStudents= obj1.numberOfStudents+obj2.numberOfStudents+obj3.numberOfStudents;
         int NumberOfCourses= 3;
         int AverageStudents= totalNumberOfStudents/NumberOfCourses;
-        
+        System.out.println("Individual course statistics");
+        System.out.println("Object one");
+        obj1.display();
+        System.out.println("Object two");
+        obj2.display();
+        System.out.println("Object three");
+        obj3.display();
     }
 }
